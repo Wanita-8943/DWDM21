@@ -14,4 +14,4 @@ Wanita Somdej 623020536-5
 
 5 อาธิติยา ธรรมวงษา
 
-![image](ไก่โต้ง.jpg)
+<img src="ไก่โต้ง.jpg" width="324" height="324">
