@@ -14,4 +14,14 @@ Wanita Somdej 623020536-5
 
 5 อาธิติยา ธรรมวงษา
 
-<img src="ไก่โต้ง.jpg" width="300" height="300">
+# สารบัญ
+
+* บทที่ 1 Introduction
+  * [Lecture Introduction](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter1.pdf)
+    * Why Data Mining?    
+    * What is Data Mining?    
+    * Knowledge Discovery (KDD) Process     
+    * Data Mining Functions	       
+       * Pattern Discovery	       
+       * Classification       
+       * Cluster Analysis
