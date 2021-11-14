@@ -53,7 +53,6 @@ Wanita Somdej 623020536-5
       * Nested loop 
     * Condition (if statement) 
       * Quiz 1 หา min 
-      * เฉลยquiz1 
       * HW ตัดเกรด 
     * Function 
       * Example1 
@@ -61,6 +60,7 @@ Wanita Somdej 623020536-5
       * Example 3 (ไม่มี output) 
       * Example 4 (ไม่มี input และ output)
       * ลักษณะของ input(paremeter,argument)
+      * Quiz 2
   
   * [Pandas](https://github.com/Wanita-8943/DWDM21/blob/main/Data102_(Chapter2).ipynb)
     * Read Data
@@ -87,10 +87,13 @@ Wanita Somdej 623020536-5
       * Indexing&Slicing
       * Useful functions
       * วนลูปเอง
+        * summatiom รวมค่าทุกค่าในarray
     * Distance Matrix
       * Euclidean Distance (L2-norm)
       * Distance function
       * Manhattan Distance (L1-norm)
+      * quiz6
+      * HW11
       * Distance of Binary Value
       
 * บทที่ 3 Data Preprocessing
@@ -114,6 +117,7 @@ Wanita Somdej 623020536-5
     * Select data by values [PD]
       * สร้าง list ของ boolean
         * นำ list ของ boolean มาเลือกค่าในตาราง
+      * Quiz 4 + HW
       * Handling Missing Value 5 (แทนด้วย ค่ากลางของ samples ใน class เดียวกัน)(ต่อ)
       * การเรียงข้อมูล[PD]
     * Outlier
@@ -121,12 +125,13 @@ Wanita Somdej 623020536-5
       * Pandas' looping (.iterrows)
     * การรวมตาราง Data Integration (ต่อตารางในแนวแกน x) 
       * รวม 2 ตาราง (.merge())
-      * รวม 2 ตาราง (.merge())
+      * เลือกเฉพาะ column ที่ต้องการมาแปะ (.map())
       * ตารางรอง (ตารางข้างขวา) ต้องไม่มี index ซ้ำ
       * Group by (pandas)
       * [PD] save ตารางเอาไปใช้ที่อื่น
       * [PD] การสร้างตาราง      
-     
+    * [PD] การสร้างตาราง 
+    * 
 * บทที่ 4  Data Warehousing and On-line 
 
 * บทที่ 5 Association Rules
@@ -145,12 +150,12 @@ Wanita Somdej 623020536-5
   
   * [Data 'reduced_marketbasket' Case](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter6_Association_Rules.ipynb)
     * มีประเทศสาขาของ supermaket นี้ทั้งหมดกี่ประเทศ
-      * HW
-      * เฉลยHW 
+      * [HW13]
+      * เฉลย[HW13]
     * ลบ recodes ที่ถูก cancel ออกไป
     * เตรียม Data สำหรับ (Fequence Pattern) Association Rule
     * Apriori
-      * Quiz      
+      * Quiz7      
       
 * บทที่ 6 Classification
   * [Lecture Classification: Basic Concepts](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter%208%20(14:10:64).pdf)     
@@ -177,13 +182,14 @@ Wanita Somdej 623020536-5
     * Advanced Tree
     * TEST
     * Start here
+      * Train - Test
+      * Train - Validation 
     * HW
       * ต้นไม้ที่ใช้เกณฑ์ Entropy มีความสูงไม่เกิน 4 ชั้น
       * ต้นไม้ที่ใช้เกณฑ์ Gini มีใบไม่เกิน 25 ใบ
       * ต้นไม้ที่ใช้เกณฑ์ Entropy และใช้การ split แบบ random
       * ต้นไม้ที่เราคิดเอง
-    * เลือกต้นไม้ที่มีความแม่นยำมากที่สุด แล้ว train ใหม่ด้วย Training 
-  
+      
   * [Lecture k-Nearest Neighbor](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter%208%20(14:10:64).pdf)
     * Bayes’ Theorem: Basics
     * Naïve Bayes Classifier
@@ -194,7 +200,6 @@ Wanita Somdej 623020536-5
   
   * [k-Nearest Neighbor & Neural Networks](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter7Classification(KNN_NN).ipynb)
     * Losd data
-    * Split Data
     * Train Model
       * import
       * Knn1
@@ -215,7 +220,7 @@ Wanita Somdej 623020536-5
       * import
       * Define
       * Train
-    * Evaluation    
+      * Evaluation    
     
 * บทที่ 7 Clustering
   * [Clustering](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter8_Clustering.ipynb)
@@ -230,6 +235,7 @@ Wanita Somdej 623020536-5
       * Example Application (Color Quantization) 
         * นับจำนวนสี 
         * จัดกลุ่มสีให้เหลือ 16 สี
+        * แปลงข้อมูลให้อยู่ในรูป row-cocumn
         * ใช้ centroid เป็นตัวแทนของสี
 
 * MiniExam
@@ -250,10 +256,23 @@ Wanita Somdej 623020536-5
         * Split Data
         * Decision Tree
         * KNN
+          * KNN1
+          * KNN2
+          * KNN3 
         * Neural Network
-          * พล็อตกราฟเปรียบเทียบความแม่นยำของการวัดผล
+          * ANN1
+          * ANN2
+          * ANN3
+          * พล็อตกราฟเปรียบเทียบความแม่นยำของการวัดผล         
         * Retrain & Evaluate
       * Visulization
         * เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
         * เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
+          * ราคาเฉลี่ยของแต่ล่ะ category
+          * ค่าส่งเฉลี่ยของแต่ล่ะ category
+          * ความสูงเฉลี่ยของแต่ล่ะ category
+          * ความยาวเฉลี่ยของแต่ล่ะ category
+          * น้ำหนักเฉลี่ยของแต่ล่ะ category
+          * ความกว้างเฉลี่ยของแต่ล่ะ category
+           
    *  [Slide นำเสนอ](https://github.com/Wanita-8943/DWDM21/blob/main/%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD_PROJECT_DWDM21.pdf)    
