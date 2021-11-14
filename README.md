@@ -92,3 +92,168 @@ Wanita Somdej 623020536-5
       * Distance function
       * Manhattan Distance (L1-norm)
       * Distance of Binary Value
+      
+* บทที่ 3 Data Preprocessing
+  
+  * [Data Preprocessing](https://github.com/Wanita-8943/DWDM21/blob/main/Data_Preprocessing(Chapter_3).ipynb)
+    * Meta Data (Data ที่ใช้อธิบาย Data)
+    * ชี้ข้อมมูลในตาราง
+      * ชี้แบบธรรมดาใช้ [ชื่อคอลัมน์][ชื่อindex]
+      * ชี้แบบ .iloc[] (มองข้อมูลเป็นเมทริกซ์)
+    * Missing Values
+      * Missing Values กำจัดmissing 
+      * Handling Missing Value 1 (ลบค่า missing)
+      * Handling Missing Value 1.5 (ลบค่า missing เฉพาะใน คอลัมล์ที่เราสนใจเท่านั้น)
+      * Handling Missing Value 2 (แทนค่าด้วย class ใหม่ (unknown))
+      * Handling Missing Value 3 (แทนค่าด้วย class ใหม่ (ค่าที่เหมาะสม))
+      * Handling Missing Value 4 (แทนค่าด้วย ค่ากลาง)
+        * ถ้าเป็น numeric ใช้ mean
+        * ถ้าเป็น numeric (ตัวหนังสือ) ใช้ mode
+        * ถ้าเป็น ordinal ใช้ median
+      * Handling Missing Value 5 (แทนค่าด้วย ค่ากลาง ของ simple)
+    * Select data by values [PD]
+      * สร้าง list ของ boolean
+        * นำ list ของ boolean มาเลือกค่าในตาราง
+      * Handling Missing Value 5 (แทนด้วย ค่ากลางของ samples ใน class เดียวกัน)(ต่อ)
+      * การเรียงข้อมูล[PD]
+    * Outlier
+      * ตัด outlier แบบ manual
+      * Pandas' looping (.iterrows)
+    * การรวมตาราง Data Integration (ต่อตารางในแนวแกน x) 
+      * รวม 2 ตาราง (.merge())
+      * รวม 2 ตาราง (.merge())
+      * ตารางรอง (ตารางข้างขวา) ต้องไม่มี index ซ้ำ
+      * Group by (pandas)
+      * [PD] save ตารางเอาไปใช้ที่อื่น
+      * [PD] การสร้างตาราง      
+     
+* บทที่ 4  Data Warehousing and On-line 
+
+* บทที่ 5 Association Rules
+  * [Lecture Mining Frequent Patterns, Association and Correlations: Basic Concepts and Methods](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter6.pdf)
+    * Basic Concepts
+      * What Is Pattern Discovery?        
+        * k-Itemsets and Their Supports
+        * Frequent Itemsets (Patterns)   
+        * From Frequent Itemsets to Association Rules     
+        * Mining Frequent Itemsets and Association Rules
+    * Efficient Pattern Mining Methods
+      * Apriori Algorithm
+        * Apriori Pruning and Scalable Mining Methods
+        * A Candidate Generation & Test Approach     
+        * The Apriori Algorithm   
+  
+  * [Data 'reduced_marketbasket' Case](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter6_Association_Rules.ipynb)
+    * มีประเทศสาขาของ supermaket นี้ทั้งหมดกี่ประเทศ
+      * HW
+      * เฉลยHW 
+    * ลบ recodes ที่ถูก cancel ออกไป
+    * เตรียม Data สำหรับ (Fequence Pattern) Association Rule
+    * Apriori
+      * Quiz      
+      
+* บทที่ 6 Classification
+  * [Lecture Classification: Basic Concepts](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter%208%20(14:10:64).pdf)     
+    * Basic Concepts
+      * Supervised vs. Unsupervised Learning (1)
+      * Supervised vs. Unsupervised Learning (2)
+      * Prediction Problems: Classification vs. Numeric Prediction
+      * Classification—Model Construction, Validation and Testing
+    * Decision Tree Induction      
+      * An Example
+      * Information Gain
+  
+  * [HW Decision Tree คำนวณมือ](https://github.com/Wanita-8943/DWDM21/blob/main/Decision_tree.pdf)
+  
+  * [Decision Tree](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter7_Classification_(Decision_Tree).ipynb)
+    * Load Data
+    * Train Model
+      * import (เรียกใช้ algorithm algorithm ที่เราต้องการ)
+      * define (กำหนด parameters ให้กับ model)
+      * train (ฝึกสอนตัวแบบ)
+    * Plot tree
+    * Evalution
+      * Random
+    * Advanced Tree
+    * TEST
+    * Start here
+    * HW
+      * ต้นไม้ที่ใช้เกณฑ์ Entropy มีความสูงไม่เกิน 4 ชั้น
+      * ต้นไม้ที่ใช้เกณฑ์ Gini มีใบไม่เกิน 25 ใบ
+      * ต้นไม้ที่ใช้เกณฑ์ Entropy และใช้การ split แบบ random
+      * ต้นไม้ที่เราคิดเอง
+    * เลือกต้นไม้ที่มีความแม่นยำมากที่สุด แล้ว train ใหม่ด้วย Training 
+  
+  * [Lecture k-Nearest Neighbor](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter%208%20(14:10:64).pdf)
+    * Bayes’ Theorem: Basics
+    * Naïve Bayes Classifier
+      * Categorical vs. Continuous Valued Features
+      * Training Dataset
+    * Lazy Learner: Instance-Based Methods  
+    * The k-Nearest Neighbor Algorithm
+  
+  * [k-Nearest Neighbor & Neural Networks](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter7Classification(KNN_NN).ipynb)
+    * Losd data
+    * Split Data
+    * Train Model
+      * import
+      * Knn1
+      * Knn2
+      * Knn3
+    * Retrain & Evaluate 
+    * Neural Network
+      * import
+      * Define
+      * Train - Test
+      * ANN2
+      * ANN3
+  
+  * [Evaluation](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter7_Classification(Evaluation).ipynb)
+    * Load data 
+    * แบ่ง Data
+    * สร้าง Model ทำนาย
+      * import
+      * Define
+      * Train
+    * Evaluation    
+    
+* บทที่ 7 Clustering
+  * [Clustering](https://github.com/Wanita-8943/DWDM21/blob/main/Chapter8_Clustering.ipynb)
+    * K-means
+      * Generate Data
+      * Explore data
+      * Clustering
+        * Import
+        * Define
+        * Fit-Predict
+        * Plot
+      * Example Application (Color Quantization) 
+        * นับจำนวนสี 
+        * จัดกลุ่มสีให้เหลือ 16 สี
+        * ใช้ centroid เป็นตัวแทนของสี
+
+* MiniExam
+  * [MiniExam](https://github.com/Wanita-8943/DWDM21/blob/main/MiniExam.ipynb)
+  
+* Group Project  
+  * [Group Project](https://github.com/Wanita-8943/DWDM21/blob/main/Group_Project.ipynb)
+    * Data and Preprocessing
+      * เว็บที่มาของข้อมูล
+      * ตาราง sellers
+      * ตาราง order_items
+      * ตาราง products
+      * เชื่อมต่อตาราง
+    * ปัญหา
+      * Association Rules
+      * Classification 
+        * ประโยชน์ของการทำนาย 
+        * Split Data
+        * Decision Tree
+        * KNN
+        * Neural Network
+          * พล็อตกราฟเปรียบเทียบความแม่นยำของการวัดผล
+        * Retrain & Evaluate
+      * Visulization
+        * เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
+        * เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
+   *  [Slide นำเสนอ](https://github.com/Wanita-8943/DWDM21/blob/main/%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD_PROJECT_DWDM21.pdf)    
