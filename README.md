@@ -238,41 +238,41 @@ Wanita Somdej 623020536-5
         * แปลงข้อมูลให้อยู่ในรูป row-cocumn
         * ใช้ centroid เป็นตัวแทนของสี
 
-* MiniExam
-  * [MiniExam](https://github.com/Wanita-8943/DWDM21/blob/main/MiniExam.ipynb)
+  * MiniExam
+    * [MiniExam](https://github.com/Wanita-8943/DWDM21/blob/main/MiniExam.ipynb)
   
-* Group Project  
-  * [Group Project](https://github.com/Wanita-8943/DWDM21/blob/main/Group_Project.ipynb)
-    * Data and Preprocessing
-      * เว็บที่มาของข้อมูล
-      * ตาราง sellers
-      * ตาราง order_items
-      * ตาราง products
-      * เชื่อมต่อตาราง
-    * ปัญหา
-      * Association Rules
-      * Classification 
-        * ประโยชน์ของการทำนาย 
-        * Split Data
-        * Decision Tree
-        * KNN
-          * KNN1
-          * KNN2
-          * KNN3 
-        * Neural Network
-          * ANN1
-          * ANN2
-          * ANN3
-          * พล็อตกราฟเปรียบเทียบความแม่นยำของการวัดผล         
-        * Retrain & Evaluate
-      * Visulization
-        * เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
-        * เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
-          * ราคาเฉลี่ยของแต่ล่ะ category
-          * ค่าส่งเฉลี่ยของแต่ล่ะ category
-          * ความสูงเฉลี่ยของแต่ล่ะ category
-          * ความยาวเฉลี่ยของแต่ล่ะ category
-          * น้ำหนักเฉลี่ยของแต่ล่ะ category
-          * ความกว้างเฉลี่ยของแต่ล่ะ category
+  * Group Project  
+    * [Group Project](https://github.com/Wanita-8943/DWDM21/blob/main/Group_Project.ipynb)
+      * Data and Preprocessing
+        * เว็บที่มาของข้อมูล
+        * ตาราง sellers
+        * ตาราง order_items
+        * ตาราง products
+        * เชื่อมต่อตาราง
+      * ปัญหา
+        * Association Rules
+        * Classification 
+          * ประโยชน์ของการทำนาย 
+          * Split Data
+          * Decision Tree
+          * KNN
+            * KNN1
+            * KNN2
+            * KNN3 
+          * Neural Network
+            * ANN1
+            * ANN2
+            * ANN3
+            * พล็อตกราฟเปรียบเทียบความแม่นยำของการวัดผล         
+          * Retrain & Evaluate
+        * Visulization
+          * เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
+          * เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
+            * ราคาเฉลี่ยของแต่ล่ะ category
+            * ค่าส่งเฉลี่ยของแต่ล่ะ category
+            * ความสูงเฉลี่ยของแต่ล่ะ category
+            * ความยาวเฉลี่ยของแต่ล่ะ category
+            * น้ำหนักเฉลี่ยของแต่ล่ะ category
+            * ความกว้างเฉลี่ยของแต่ล่ะ category
            
    *  [Slide นำเสนอ](https://github.com/Wanita-8943/DWDM21/blob/main/%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD_PROJECT_DWDM21.pdf)    
